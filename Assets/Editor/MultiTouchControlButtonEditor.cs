@@ -10,9 +10,9 @@ public class MultiTouchControlButtonEditor : ButtonEditor {
 
         MultiTouchControlButton button = (MultiTouchControlButton)target;
         button.multiTouchable = EditorGUILayout.Toggle("Multi Touchable", button.multiTouchable);
-        
+
         base.OnInspectorGUI();
-        
+
         serializedObject.ApplyModifiedProperties();
     }
 }
