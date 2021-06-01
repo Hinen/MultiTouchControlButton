@@ -63,3 +63,4 @@ crashlytics-build.properties
 ProjectSettings/
 Assets/Plugins*
 Packages/
+UserSettings/
